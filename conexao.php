@@ -1,8 +1,8 @@
 <?php
     $servidor = "aws.connect.psdb.cloud";
     $port = "3306";
-    $usuario = "6a7qm57135iikoi47o4n";
-    $password = "pscale_pw_Dt8yHwPEFsDxVy6bF5a7YOA8Vxa7Z8dqrFwzbLEYlUS";
+    $usuario = "er76stjpgs42sg3pgc0l";
+    $password = "pscale_pw_DpLeXOpSXc7kupfNQ6AaC8N9cFJZuK728FgSlNQxA8T";
     $dbname = "retiro2024";
 
     $conexao = mysqli_connect($servidor, $usuario, $password, $dbname);
