@@ -1,0 +1,82 @@
+
+body{
+    width: 99%;
+    height: 100%s;
+    background-color: #0B0120;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.midle{
+    width: 300px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: medium;
+    margin-top: 12px;
+    margin-left: 10px;
+}
+.large{
+    width: 300px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: medium;
+    margin-top: 12px;
+    margin-left: 10px;
+}
+.Sel{
+    width: 310px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: medium;
+    margin-top: 12px;
+    margin-left: 10px;
+}
+.container{
+    width: 200px;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+   width: 450px;
+   color: white;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-left: -65px;
+}
+
+label{
+    color: white;
+    font-size: larger;
+    margin-top: 12px;
+    margin-left: 10px;
+}
+.imputs{
+    margin-top: 15px;
+    float: left;
+}
+form .input-group button{
+    width: 150px;
+    height: 45px;
+    background: #120138;
+    outline: none;
+    border: none;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    font-size: 16px;
+    box-shadow: 0px 10px 40px -12px #dabdfaf8;
+    font-weight: 800;
+    letter-spacing: 3px;
+    margin-top: 20px;
+    margin-left: 80px;
+   
+}

@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="js/jquery-3.6.1.min.js" type="text/javascript"></script>
+    <script src="js/jquery.mask.min.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $("#Cpf").mask("000.000.000-00");
+        })
+    </script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $("#Fone").mask("(00)00000-0000");
+        })
+    </script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $("#Cep").mask("00000-000");
+        })
+    </script>
+    <title>Retiro 2024</title>
+</head>
+
+<body>
+    <div class="container">
+        <form action="">
+            <h1>RETIRO ESPIRITUAL 2024</h1>
+            <div>
+                <div class="imputs">
+                    <div><label for="nome">Nome:</label></div>
+                    <input name="NomeCompleto" class="large" type="text" placeholder="Nome Completo">
+                </div>
+                <div class="imputs">
+                    <div><label for="dataNascimento">Data de Nascimento:</label></div>
+                    <input name="DataNascimento" class="midle" type="date">
+                </div>
+                <div class="imputs">
+                    <div><label for="cpf">CPF:</label></div>
+                    <input name="cpf" class="midle" type="text" id="Cpf" placeholder="000.000.000-00">
+                </div>
+                <div class="imputs">
+                    <div><label for="SEXO">Sexo:</label></div>
+                    <select name="sexo" class="Sel" id="Sexo">
+                        <option selected enable value="-">-</option>
+                        <option value="M">Masculino</option>
+                        <option value="F">Feminino</option>
+                    </select>
+                </div>
+                <div class="imputs">
+                    <div><label for="estadoCivil">Estado Civil:</label></div>
+                    <select class="Sel" name="eCivil" id="estCivil">
+                        <option selected enable value="-">-</option>
+                        <option value="S">Solteiro(a)</option>
+                        <option value="C">Casado(a)</option>
+                        <option value="D">Divorciado(a)</option>
+                    </select>
+                </div>
+                <div class="imputs">
+                    <div><label for="telefone">Telefone:</label></div>
+                    <input name="fone" class="midle" type="text" id="Fone" placeholder="(00)00000-0000">
+                </div>
+                <div class="imputs">
+                    <div><label for="mail">E-mail:</label></div>
+                    <input name="email" class="large" type="text" placeholder="E-mail">
+                </div>
+                <div class="imputs">
+                    <div><label for="rua">Rua:</label></div>
+                    <input name="Endereço" class="large" type="text" placeholder="Rua">
+                </div>
+                <div class="imputs">
+                    <div><label for="numero">Numero:</label></div>
+                    <input name="" class="midle" type="text" placeholder="Numero">
+                </div>
+                <div class="imputs">
+                    <div><label for="bairro">Bairro:</label></div>
+                    <input name="Bairro" class="large" type="text" placeholder="Bairro">
+                </div>
+                <div class="imputs">
+                    <div><label for="cidade">Cidade:</label></div>
+                    <input name="Cidade" class="large" type="text" placeholder="Cidade">
+                </div>
+                <div class="imputs">
+                    <div><label for="cep">Cep:</label></div>
+                    <input name="cep" class="midle" type="text" id="Cep" placeholder="00000-000">
+                </div>
+                <div class="imputs">
+                    <div><label for="estado">Estado:</label></div>
+                    <select class="Sel" name="Estado">
+                        <option selected enable>-</option>
+                        <option value="Acre">Acre</option>
+                        <option value="Alagoas">Alagoas</option>
+                        <option value="Amapá">Amapá</option>
+                        <option value="Amazonas">Amazonas</option>
+                        <option value="Bahia">Bahia</option>
+                        <option value="Ceará">Ceará</option>
+                        <option value="Distrito Federal">Distrito Federal</option>
+                        <option value="Espirito Santo">Espirito Santo</option>
+                        <option value="Goiás">Goiás</option>
+                        <option value="Maranhão">Maranhão</option>
+                        <option value="Mato Grosso">Mato Grosso</option>
+                        <option value="Mato Grosso do Sul">Mato Grosso do Sul</option>
+                        <option value="Minas Gerais">Minas Gerais</option>
+                        <option value="Pará">Pará</option>
+                        <option value="Paraíba">Paraíba</option>
+                        <option value="Paraná">Paraná</option>
+                        <option value="Pernambuco">Pernambuco</option>
+                        <option value="Piauí">Piauí</option>
+                        <option value="Rio de Janeiro">Rio de Janeiro</option>
+                        <option value="Rio Grande do Norte">Rio Grande do Norte</option>
+                        <option value="Rio Grande do Sul">Rio Grande do Sul</option>
+                        <option value="Rondônia">Rondônia</option>
+                        <option value="Roraima">Roraima</option>
+                        <option value="Santa Catarina">Santa Catarina</option>
+                        <option value="São Paul">São Paulo</option>
+                        <option value="Sergipe">Sergipe</option>
+                        <option value="Tocantins">Tocantins</option>
+                    </select>
+                </div>
+                <div class="imputs">
+                    <div><label for="Igreja">IASD:</label></div>
+                    <input name="Iasd" class="large" type="text" placeholder="Igreja">
+                </div>
+                <div class="input-group">
+                    <button>Inscrever</button>
+                </div>
+
+
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
